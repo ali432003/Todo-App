@@ -172,7 +172,7 @@ function App() {
                 {editIndex === index ? (
                   <FaCheck
                     size={window.innerWidth > 768 ? 40 : 34}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:bg-[#8b5cf6]"
                     style={{
                       backgroundColor: "#c4b5fd",
                       padding: "8px",
@@ -183,7 +183,7 @@ function App() {
                 ) : (
                   <MdEdit
                     size={window.innerWidth > 768 ? 40 : 34}
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:bg-[#8b5cf6]"
                     style={{
                       backgroundColor: "#c4b5fd",
                       padding: "8px",
@@ -194,7 +194,7 @@ function App() {
                 )}
                 <MdDelete
                   size={window.innerWidth > 768 ? 40 : 34}
-                  className="cursor-pointer"
+                  className="cursor-pointer hover:bg-[#ec4899]"
                   onClick={() => handleDelete(index)}
                   style={{
                     backgroundColor: "#be123c",
